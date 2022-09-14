@@ -47,7 +47,7 @@ jobs:
           pip list
         shell: bash
 
-      - uses: ./.github/actions/pip-list
+      - uses: Lightning-AI/utilities/.github/actions/pip-list
 
       - name: Test Documentation
         working-directory: ${{ inputs.docs-dir }}

@@ -44,7 +44,7 @@ jobs:
         pip --version
         pip list
 
-    - uses: ./.github/actions/pip-list
+    - uses: Lightning-AI/utilities/.github/actions/pip-list
 
     - uses: ./.github/actions/unittesting
       with:
